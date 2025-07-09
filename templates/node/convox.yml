@@ -1,0 +1,7 @@
+environment:
+  - PORT=3000
+services:
+  web:
+    domain: ${HOST}
+    build: .
+    port: 3000
